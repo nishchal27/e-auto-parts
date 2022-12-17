@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { urlFor } from '../lib/client'
 
 
+//here destructuring all of the properties from product
 const Product = ({product: {image, name, slug, price}}) => {
   return (
     <div>
